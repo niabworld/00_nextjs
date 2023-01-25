@@ -14,7 +14,7 @@ export default function About(props) {
 }
 
 export async function getStaticProps() {
-  const response = await fetch("https://api.github.com/users/learnwebcode");
+  const response = await fetch("https://api.github.com/users/niabworld");
   const data = await response.json();
 
   return {
